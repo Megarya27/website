@@ -20,7 +20,7 @@ const projects: Project[] = [
     link: "https://project1.com",
     github: "https://github.com/yourusername/project1",
   },
-  // Add more projects here
+  //  more projects to add here
 ];
 
 const Projects = () => {
@@ -29,7 +29,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20 px-4 max-w-7xl mx-auto">
       <motion.h2
-        className="text-4xl justify-center items-center font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-tl from-[#00ff00] via-[#00cc00] to-[#008000]"
+        className="m-20 text-center text-3xl font-mono font-bold text-transparent bg-clip-text bg-gradient-to-tl from-[#00ff00] via-[#00cc00] to-[#008000]  transition-transform cursor-default"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}

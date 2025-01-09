@@ -3,7 +3,7 @@ import React from "react";
 import { Vortex } from "@/components/ui/vortex";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-
+import { WavyBackground } from "./ui/wavy-background";
 const About: React.FC = () => {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -25,16 +25,19 @@ const About: React.FC = () => {
   };
 
   const aboutMeText =
-    "Hi, I’m Arya, a computer science student at the University of Technology Sydney, where I dive deep into the digital frontier. My passion lies at the intersection of cybersecurity and quantitative trading, where I explore the art of securing systems and optimizing strategies in fast-paced financial markets. Whether it's cracking codes or analyzing market algorithms, I thrive on solving complex problems and pushing the boundaries of technology. I believe in using my skills to shape a safer, smarter future, one line of code at a time.";
+    "Hi, I am Arya, a computer science student at the University of Technology Sydney, where I dive deep into the digital frontier. My passion lies at the intersection of cybersecurity and quantitative trading, where I explore the art of securing systems and optimizing strategies in fast-paced financial markets. Whether it's cracking codes or analyzing market algorithms, I thrive on solving complex problems and pushing the boundaries of technology. I believe in using my skills to shape a safer, smarter future, one line of code at a time.";
 
   return (
+    
     <motion.div 
-      className="min-h-screen w-screen relative overflow-visible flex "
+      className="min-h-screen w-screen relative bg-transparent overflow-visible flex "
       initial="hidden"
       animate="visible"
       variants={containerVariants}
     >
-      <div id="About" className="  flex flex-col md:flex-row mb-28 md:px-16 mt-96 w-2/3 h-full">
+     
+      <div id="about" className="  flex flex-col bg-transparent md:flex-row mb-28 md:px-16 mt-96 w-2/3 h-full">
+      
         {/* Text Section */}
         <div className="flex flex-col p-10 rounded-xl justify-center border shadow-2xl border-green-500 border-opacity-30">
           <motion.h2
@@ -67,7 +70,7 @@ const About: React.FC = () => {
         {/* Image Section */}
         <div className="flex relative min-w-60 justify-center items-center md:w-screen ">
           <motion.img
-            src="/file(1).png" // Add your image path here
+            src="/file(1).png" 
             alt="About Image"
             className="rounded-full shadow-lg w-full  h-auto"
             initial="hidden"
@@ -85,7 +88,7 @@ const About: React.FC = () => {
         baseHue={80}
         className="absolute top-0 left-0 -z-10 w-full h-full"
       />
-      
+       
     </motion.div>
     
   );
