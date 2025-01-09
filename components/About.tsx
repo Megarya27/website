@@ -34,9 +34,9 @@ const About: React.FC = () => {
       animate="visible"
       variants={containerVariants}
     >
-      <div id="About" className=" flex flex-col md:flex-row md:px-16 pt-96 w-full h-full">
+      <div id="About" className="  flex flex-col md:flex-row mb-28 md:px-16 mt-96 w-2/3 h-full">
         {/* Text Section */}
-        <div className="flex flex-col justify-center md:w-1/2">
+        <div className="flex flex-col p-10 rounded-xl justify-center border shadow-2xl border-green-500 border-opacity-30">
           <motion.h2
             className="text-3xl font-mono font-bold text-transparent bg-clip-text bg-gradient-to-tl from-[#00ff00] via-[#00cc00] to-[#008000]  transition-transform cursor-default mb-4"
             initial="hidden"
@@ -65,11 +65,11 @@ const About: React.FC = () => {
         </div>
 
         {/* Image Section */}
-        <div className="flex justify-center items-center md:w-screen md:-translate-x-1/4">
+        <div className="flex relative min-w-60 justify-center items-center md:w-screen ">
           <motion.img
             src="/file(1).png" // Add your image path here
             alt="About Image"
-            className="rounded-lg shadow-lg w-full max-w-[400px] h-auto"
+            className="rounded-full shadow-lg w-full  h-auto"
             initial="hidden"
             animate="visible"
             variants={containerVariants}
