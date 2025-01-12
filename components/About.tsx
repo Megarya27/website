@@ -32,7 +32,7 @@ export default function About() {
   return (
     
     <motion.div
-      className="min-h-screen w-screen relative bg-transparent overflow-visible flex"
+      className="min-h-screen justify-center relative bg-black overflow-visible flex"
       initial="hidden"
       animate="visible"
       variants={containerVariants}
@@ -42,6 +42,7 @@ export default function About() {
         id="about"
         className="flex flex-col bg-transparent  md:flex-row mb-28 md:px-16 mt-96 w-2/3 h-full"
          >
+      
       
         {/* Text Section */}
         <div className="flex flex-col p-10 rounded-xl justify-center  border shadow-2xl border-green-500 border-opacity-30 transition-all duration-300">

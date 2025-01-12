@@ -20,6 +20,7 @@
     "react-simple-typewriter": "^5.0.1",
     "simplex-noise": "^4.0.3",
     "tailwind-merge": "^2.6.0",
+    "three": "^0.172.0",
     "website": "file:"
   },
   "devDependencies": {

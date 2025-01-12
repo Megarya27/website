@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 
 const Skills = () => {
   return (
-    <section className="pt-0 relative">
+    <section className="pt-0 relative bg-transparent">
       
       <div className="max-w-6xl px-4 mx-auto">
         <div className="relative mb-12 overflow-hidden">
