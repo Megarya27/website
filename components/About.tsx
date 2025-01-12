@@ -73,7 +73,7 @@ export default function About() {
         </div>
 
         {/* Image Section */}
-        <div className="flex relative min-w-60 justify-center items-center md:w-screen ">
+        <div className=" flex relative justify-center items-center min-w-80 min-h-80 max-h-96 max-w-96">
           <motion.img
             src="/file(1).png"
             alt="About Image"
