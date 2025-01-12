@@ -16,6 +16,7 @@ export default function Home() {
         <Skills/>
         <Projects/>
         
+
       </div>
     </main>
   );
