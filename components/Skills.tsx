@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 
 const Skills = () => {
   return (
-    <section className="pt-0 relative bg-transparent">
+    <section className=" relative bg-transparent">
       
       <div className="max-w-6xl px-4 mx-auto">
         <div className="relative mb-12 overflow-hidden">
@@ -21,7 +21,7 @@ const Skills = () => {
               {languages.map((skill, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center mx-4 transition-shadow"
+                  className="flex flex-col items-center mx-20 transition-shadow"
                 >
                   <skill.icon size={40} className="icon-hover" />
                   <span className="text-sm font-medium text-green-500 mt-2">
@@ -37,7 +37,7 @@ const Skills = () => {
               {techSkills.map((skill, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center mx-4 transition-shadow"
+                  className="flex flex-col items-center mx-20 transition-shadow"
                 >
                   <skill.icon size={40} className="icon-hover" />
                   <span className="text-sm font-medium text-green-500 mt-2">

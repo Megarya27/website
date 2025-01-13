@@ -32,7 +32,7 @@ export default function About() {
   return (
     
     <motion.div
-      className="min-h-screen justify-center relative bg-black overflow-visible flex"
+      className="min-h-60 justify-center relative bg-black overflow-visible flex"
       initial="hidden"
       animate="visible"
       variants={containerVariants}
@@ -40,7 +40,7 @@ export default function About() {
       
       <div
         id="about"
-        className="flex flex-col bg-transparent  md:flex-row mb-28 md:px-16 mt-96 w-2/3 h-full"
+        className="flex flex-col bg-transparent  md:flex-row mb-28 md:px-16  w-2/3 h-full"
          >
       
       
