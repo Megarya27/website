@@ -17,7 +17,7 @@ const VantaNetEffect = ({ containerId }) => {
           scaleMobile: 1.0,
           backgroundColor: 0x000000, 
           color: 0x00ff00, 
-          waveOpacity: 0.6, 
+          waveOpacity: 0.7, 
         });
       }
     };

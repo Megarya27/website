@@ -14,7 +14,7 @@ const Contact = () => {
 
         <div className="flex justify-center gap-8 mb-20">
           <a
-            href="https://github.com/yourusername" 
+            href="https://github.com/Megarya27" 
             target="_blank"
             rel="noopener noreferrer"
             className="group"
@@ -26,7 +26,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="mailto:your.email@domain.com"
+            href="mailto:arya.chikmagalur@gmail.com"
             className="group"
           >
             <div className="rounded-full p-2 border bg-neonGreen hover:bg-black group-hover:bg-black">
@@ -36,7 +36,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="www.linkedin.com/in/arya-c101010101"
             target="_blank"
             rel="noopener noreferrer" 
             className="group"

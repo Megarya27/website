@@ -7,7 +7,6 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
 import { HiMenu, HiX } from "react-icons/hi";
 
 export const FloatingNav = ({
@@ -50,6 +49,13 @@ export const FloatingNav = ({
     }
   });
 
+  const handleScroll = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   if (isMobile) return null; // Hide navigation bar on mobile
 
   return (
@@ -68,16 +74,16 @@ export const FloatingNav = ({
           className="hidden sm:flex max-w-fit bg-gradient-to-tl from-[#008000] via-[#000000] to-[#000000] fixed inset-x-0 mx-auto rounded-full text-green-500 shadow-[0px_2px_3px_-1px_rgba(0,255,0,0.1),0px_1px_0px_0px_rgba(0,255,0,0.02),0px_0px_0px_1px_rgba(0,255,0,0.08)] pr-2 pl-8 py-2 items-center justify-center"
         >
           {navItems.map((navItem, idx) => (
-            <Link
+            <button
               key={`link-${idx}`}
-              href={navItem.link}
+              onClick={() => handleScroll(navItem.link.substring(1))} // Remove "#" and pass the ID
               className={cn(
                 "flex max-w-fit rounded-full items-center pr-2 pl-8 py-2 justify-center space-x-4 text-xl hover:text-white dark:text-green-500 dark:hover:text-white"
               )}
             >
               <span className="block">{navItem.icon}</span>
               <span className="text-sm">{navItem.name}</span>
-            </Link>
+            </button>
           ))}
         </div>
       </motion.div>

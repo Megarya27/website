@@ -19,7 +19,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative bg-opacity-50 bg-black pb-20 pt-56 min-h-screen">
+    <div className="relative bg-opacity-25 bg-black pb-20 pt-56 min-h-screen">
       {/* VantaNetEffect in the background */}
       <VantaNetEffect containerId="vanta-container" />
 
