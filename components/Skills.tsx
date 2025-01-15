@@ -2,6 +2,7 @@ import { FaPython, FaJava, FaHtml5, FaNodeJs, FaReact } from 'react-icons/fa';
 import { SiNextdotjs, SiJavascript, SiTypescript, SiTailwindcss, SiPrisma, SiWireshark, SiGnubash } from 'react-icons/si';
 import { GiPortculis } from 'react-icons/gi'; // for John The Ripper
 import { BiNetworkChart } from 'react-icons/bi'; // for Nmap
+import { Vortex } from '@/components/ui/vortex';
 import Marquee from "react-fast-marquee";
 
 
@@ -50,6 +51,9 @@ const Skills = () => {
         </div>
       </div>
       
+            
+            
+        
     </section>
   );
 };

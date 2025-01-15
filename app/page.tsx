@@ -16,12 +16,18 @@ export default function Home() {
         </div>
       
       <div className=" bg-black w-screen h-full">
-      
+      <Vortex
+                backgroundColor="transparent"
+                rangeY={300}
+                particleCount={10}
+                baseHue={80}
+                className=" w-screen h-full"
+            >
         <About/>
         <Skills/>
         <Projects/>
         <Contact/>
-       
+        </Vortex>
       </div>
     </main>
   );
