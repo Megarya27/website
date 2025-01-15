@@ -26,7 +26,7 @@ const wordVariants = {
 };
 
 const aboutMeText =
-  "Hi, I am Arya, a computer science student at the University of Technology Sydney, where I dive deep into the digital frontier. My passion lies at the intersection of cybersecurity and quantitative trading, where I explore the art of securing systems and optimizing strategies in fast-paced financial markets. Whether it's cracking codes or analyzing market algorithms, I thrive on solving complex problems and pushing the boundaries of technology. I believe in using my skills to shape a safer, smarter future, one line of code at a time.";
+  "Hi, I am Arya, a computer science student at the University of Technology Sydney, where I immerse myself in the ever-evolving world of technology. My passion lies at the intersection of software engineering and cybersecurity, where I explore the art of building robust systems and fortifying them against digital threats. Whether it's crafting efficient algorithms or uncovering vulnerabilities in complex systems, I thrive on solving challenging problems and advancing technological innovation. I am dedicated to using my skills to create a safer, smarter digital future, one line of code at a time.";
 
 export default function About() {
   return (
@@ -45,9 +45,9 @@ export default function About() {
       
       
         {/* Text Section */}
-        <div className="flex flex-col p-10 rounded-xl justify-center  border shadow-2xl border-green-500 border-opacity-30 transition-all duration-300">
+        <div className="flex flex-col md:text-3xl sm:text-2xl p-10 rounded-xl justify-center  border shadow-2xl border-green-500 border-opacity-30 transition-all duration-300">
           <motion.h2
-            className="text-3xl font-mono font-bold text-transparent bg-clip-text bg-gradient-to-tl from-[#00ff00] via-[#00cc00] to-[#008000] transition-transform cursor-default mb-4"
+            className="md:text-3xl sm:text-2xl font-mono font-bold text-transparent bg-clip-text bg-gradient-to-tl from-[#00ff00] via-[#00cc00] to-[#008000] transition-transform cursor-default mb-4"
             initial="hidden"
             animate="visible"
           >
@@ -62,7 +62,7 @@ export default function About() {
           </motion.h2>
           
           <motion.p
-            className="pt-3 text-lg text-white font-mono leading-relaxed flex flex-wrap contain-none"
+            className="pt-3  text-white  md:text-lg sm:text-xl font-mono leading-relaxed flex flex-wrap contain-none"
             variants={containerVariants}
           >
             {aboutMeText.split(" ").map((word, index) => (
@@ -74,7 +74,7 @@ export default function About() {
         </div>
 
         {/* Image Section */}
-        <div className=" flex relative justify-center items-center min-w-80 min-h-80 max-h-96 max-w-96">
+        <div className=" flex relative justify-center items-center md:min-w-80 md:min-h-80 md:max-h-96 md:max-w-96">
           <motion.img
             src="/file(1).png"
             alt="About Image"

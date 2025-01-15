@@ -14,34 +14,37 @@ const Contact = () => {
 
         <div className="flex justify-center gap-8 mb-20">
           <a
-            href="https://github.com/Megarya27" 
+            href="https://github.com/yourusername" 
             target="_blank"
             rel="noopener noreferrer"
             className="group"
           >
-            <div className="rounded-full p-2 border bg-neonGreen hover:bg-black group-hover:bg-black">
+            <div className="rounded-full p-2 border bg-gradient-to-bl 
+                     from-[#00ff00] via-[#00cc00] to-[#008000] hover:bg-black group-hover:bg-black">
             <FaGithub className="w-8 h-8 text-black transition-all duration-300   
                                 group-hover:scale-110 group-hover:text-white" />
                                 </div>
           </a>
 
           <a
-            href="mailto:arya.chikmagalur@gmail.com"
+            href="mailto:your.email@domain.com"
             className="group"
           >
-            <div className="rounded-full p-2 border bg-neonGreen hover:bg-black group-hover:bg-black">
+            <div className="rounded-full p-2 border bg-gradient-to-bl 
+                     from-[#00ff00] via-[#00cc00] to-[#008000] hover:bg-black group-hover:bg-black">
             <MdEmail className="w-8 h-8 text-black transition-all duration-300   
                                 group-hover:scale-110 group-hover:text-white" />
                                 </div>
           </a>
 
           <a
-            href="https://www.linkedin.com/in/arya-c101010101"
+            href="https://linkedin.com/in/yourusername"
             target="_blank"
             rel="noopener noreferrer" 
             className="group"
           >
-            <div className="rounded-full p-2 border bg-neonGreen hover:bg-black group-hover:bg-black">
+            <div className="rounded-full p-2 border bg-gradient-to-bl 
+                     from-[#00ff00] via-[#00cc00] to-[#008000] hover:bg-black group-hover:bg-black">
             <FaLinkedin className="w-8 h-8 text-black transition-all duration-300   
                                 group-hover:scale-110 group-hover:text-white" />
                                 </div>
@@ -50,10 +53,12 @@ const Contact = () => {
 
         {/* Footer */}
         <footer className="text-center mt-96">
-          <p className="text-gray-300 text-sm">
+          <p className="text-transparent bg-clip-text bg-gradient-to-tl 
+                     from-[#00ff00] via-[#00cc00] to-[#008000] text-sm">
             Built with Next.js, TypeScript & Tailwind CSS
           </p>
-          <p className="text-gray-300 text-sm mt-2">
+          <p className="text-transparent bg-clip-text bg-gradient-to-tl 
+                     from-[#00ff00] via-[#00cc00] to-[#008000] text-sm mt-2">
             © {new Date().getFullYear()} ARYA CHIKMAGALUR. All rights reserved.
           </p>
         </footer>

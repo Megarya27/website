@@ -43,15 +43,18 @@ const Hero = () => {
     ARYA!
   </h2>
   <motion.h2 
-            className="pt-8 text-xl font-mono font-bold text-transparent bg-clip-text bg-gradient-to-tl from-[#00ff00] via-[#00cc00] to-[#008000] hover:scale-105 transition-transform cursor-default mt-4"
+            className="pt-8 md:text-xl sm:text-lg  font-mono font-bold text-transparent bg-clip-text bg-gradient-to-tl from-[#00ff00] via-[#00cc00] to-[#008000] hover:scale-105 transition-transform cursor-default mt-4"
             variants={itemVariants}
           >
             <Typewriter
               words={[
-                '> Pioneering secure and innovative solutions in the digital age',
-                '> Merging technical expertise with unparalleled security acumen',
-                '> Building Innovative systems crafted with uncompromising security',
-                '> Mission: Shaping the future through code and innovation'
+                '> Mission: Securing the digital frontier, one system at a time',
+                '> Vision: Empowering a smarter world through robust engineering and cybersecurity',
+                '> Philosophy: Innovation thrives at the intersection of creativity and logic',
+                '> Passion: Solving complex challenges with elegant code',
+                '> Purpose: Creating resilient systems for a connected world',
+                '> Belief: Technology should empower, protect, and inspire',
+      
               ]}
               cursor
               cursorStyle='_'

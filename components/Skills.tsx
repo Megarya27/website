@@ -15,7 +15,7 @@ const Skills = () => {
           <div className="absolute top-0 left-0 h-full w-24 bg-gradient-to-r from-black via-transparent to-transparent z-10 pointer-events-none"></div>
           {/* Right gradient fade */}
           <div className="absolute top-0 right-0 h-full w-24 bg-gradient-to-l from-black via-transparent to-transparent z-10 pointer-events-none"></div>
-          <h1 className="m-20 text-center text-3xl font-mono font-bold text-transparent bg-clip-text bg-gradient-to-tl from-[#00ff00] via-[#00cc00] to-[#008000]  transition-transform cursor-default">&lt;/LANGUAGES&gt;</h1>
+          <h1 className="m-20 text-center md:text-3xl sm:text-lg font-mono font-bold text-transparent bg-clip-text bg-gradient-to-tl from-[#00ff00] via-[#00cc00] to-[#008000]  transition-transform cursor-default">&lt;/LANGUAGES&gt;</h1>
           <Marquee speed={50} gradient={false}>
             <div className="flex mb-20">
               {languages.map((skill, index) => (
@@ -31,7 +31,7 @@ const Skills = () => {
               ))}
             </div>
           </Marquee>
-          <h1 className=" m-20 text-center text-3xl font-mono font-bold text-transparent bg-clip-text bg-gradient-to-tl from-[#00ff00] via-[#00cc00] to-[#008000]  transition-transform cursor-default">&lt;/TECHNOLOGIES AND TOOLS&gt;</h1>
+          <h1 className=" m-20 text-center md:text-3xl sm:text-lg font-mono font-bold text-transparent bg-clip-text bg-gradient-to-tl from-[#00ff00] via-[#00cc00] to-[#008000]  transition-transform cursor-default">&lt;/TECHNOLOGIES AND TOOLS&gt;</h1>
           <Marquee speed={50} gradient={false}>
             <div className="flex">
               {techSkills.map((skill, index) => (
