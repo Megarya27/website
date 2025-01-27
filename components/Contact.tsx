@@ -38,7 +38,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/arya-c101010101/"
+            href="https://www.linkedin.com/in/arya-chikmagalur/"
             target="_blank"
             rel="noopener noreferrer" 
             className="group"
