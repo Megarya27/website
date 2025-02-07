@@ -13,12 +13,12 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Project 1",
-    description: "Description of your first project. What it does, why you built it, etc.",
-    technologies: ["React", "TypeScript", "Node.js"],
-    image: "/images/project1.png",
-    link: "https://project1.com",
-    github: "https://github.com/yourusername/project1",
+    title: "AspireAI",
+    description: "AspireAI - The AI-powered career coach that helps you craft the perfect resume, ace interviews, and stay ahead with industry trends. 🚀",
+    technologies: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
+    image: "/aspireai.png",
+    link: "https://aspireai-megarya27s-projects.vercel.app/",
+    github: "https://github.com/Megarya27/aspireai",
   },
   //  more projects to add here
 ];
